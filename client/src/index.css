@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: Lato;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: lato;
+}
+
+input :hover {
+  border: 2px solid #00AEEF !important;
+}
+input :focus {
+  border: 2px solid #00AEEF !important;
+}
+input[type=password]:hover {
+  color: red
+}

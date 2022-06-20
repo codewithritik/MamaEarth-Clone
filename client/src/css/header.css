@@ -1,0 +1,12 @@
+.headerdiv{
+    padding: 4px 25px;
+    background-color: #D4424C;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+        top: 0px;
+        z-index: 99;
+}

@@ -1,0 +1,200 @@
+.checkoutcont{
+    display: flex;
+    padding: 0px 8vw;
+    text-align: left;
+    font-size: 14px;
+    gap: 20px;
+}
+.checkinput{
+width: 60%;
+
+}
+.checkheding{
+ display: flex;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+   
+    vertical-align: center;
+
+    align-items: center;
+    text-align: left;
+}
+
+.checkinput>h3{
+color: rgb(29, 29, 29);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.checkheding>button{
+    cursor: pointer;
+        margin: 1rem 0px 1rem 1rem;
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: 600;
+        border: 2px solid rgb(0, 175, 239);
+        color: rgb(0, 175, 239);
+        width: fit-content;
+        padding: 0.4rem 0.7rem;
+        border-radius: 3px;
+}
+
+.checkadress>input .checkoutform>input{
+
+
+    border-width: 2px;
+    border-radius: 4px;
+    height: 2.5rem;
+    padding: 10px;
+   
+}
+.checkadress{
+   
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.checkprodiv{
+width: 40%;
+   border: 2px solid rgb(209, 203, 203);
+}
+.addressflex{
+    display: flex;
+}
+.addresstype{
+    margin-bottom: 10px;
+}
+.addresshome{
+    color: rgb(0, 174, 239) !important;
+    border: 1px solid rgb(0, 174, 239) !important;
+    background-color: rgb(214, 244, 255) !important;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 6px 12px 6px 0px;
+    text-align: center;
+    padding: 2px;
+    color: rgb(116, 116, 116);
+    background-color: rgb(220, 220, 220);
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 18px;
+    width: 80px;
+ 
+}
+.addresslabel{
+
+            font-size: 14px;
+            cursor: pointer;
+            margin: 6px 12px 6px 0px;
+            text-align: center;
+            padding: 2px;
+            color: rgb(116, 116, 116);
+            background-color: rgb(220, 220, 220);
+            border: 1px solid rgb(220, 220, 220);
+            border-radius: 18px;
+            width: 80px;
+        
+}
+.radio{
+    /* border: 2px solid red !important; */
+}
+.paymentdiv{
+    display: flex;
+}
+.radio>label{
+border-top: 1.5px solid rgb(209, 203, 203) !important;
+padding:10px 10px !important;
+margin: 0px !important;
+
+    
+}
+.paymethod{
+    border: 1px solid rgb(209, 203, 203);
+    width: 30%;
+    border-radius: 10px;
+}
+.paymentsucess{
+    width: 67%;
+    margin-left: 10px;
+    border: 1px solid rgb(209, 203, 203);
+    padding: 10px;
+}
+.paymenthead{
+
+margin-bottom: 20px;
+display: flex;
+gap: 20px;
+font-size: 12px;
+}
+.discunt{
+    padding: 0.25rem 0.35rem 0.15rem;
+        border: 1px solid rgb(27, 187, 51);
+        border-radius: 5px;
+        background-color: rgba(27, 187, 51, 0.05);
+        color: rgb(27, 187, 51);
+        font-size: 0.7rem;
+        line-height: 1.2em;
+        text-align: center;
+}
+
+.cardcvv{
+    display: flex;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cardcvv>div{
+    width: 50%;
+    display: flex;
+    
+}
+.cardcvv> div>input{
+    padding-left: 12px;
+        height: 2.5rem;
+        width: 6rem;
+        border-radius: 5px;
+        margin-right: 10px;
+}
+.placeorder{
+        width: 100%;
+            height: 2.5rem  !important;
+            margin: 1rem 0px  !important;
+            padding: 0px  !important;
+            border-radius: 5px  !important;
+            font-size: 0.925rem  !important;
+            background-color: rgb(0, 175, 239)  !important;
+            letter-spacing: 0.5px  !important;
+            font-family: Roboto, Lato  !important;
+            color: white !important;
+}
+.cardform >p{
+    text-align: center;
+    
+margin: auto;
+    padding-left: 0.5rem;
+    color: rgb(101, 160, 6);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.PaymentStrip{
+        margin: 0.75rem 0px 0.875rem;
+            display: grid;
+            column-gap: 0.375rem;
+            grid-template-columns: repeat(6, minmax(2.5rem, 3.75rem));
+            height: 25px;
+            -webkit-box-pack: center;
+            justify-content: center;
+}
+.cartdrawdiv{
+    width: 100%;
+}
+.checkstock{
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}

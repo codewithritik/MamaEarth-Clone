@@ -1,0 +1,200 @@
+.youtubecont{
+    display: flex;
+padding: 0px 8vw;
+}
+.youtube{
+width: 50%;
+}
+.youtubetext{
+width: 50%;
+    padding-right: 2rem;
+        padding-left: 2rem;
+        margin-top: 50px;
+}
+.youtubetext>h2{
+    color: rgb(60, 160, 218);
+        font-weight: 300;
+        font-size: 1.4rem;
+        text-align: center;
+        display: block;
+        width: 100%;
+        font-family: Satisfy;
+}
+.youtubetext>p{
+    margin-top: 10px;
+    padding-right: 1rem;
+    font-size: 0.9rem;
+}
+.shopbtn{
+    margin-top: 10px;
+    display: inline-block;
+        position: relative;
+        padding: 10px 30px;
+        border-radius: 5px;
+        background: rgb(65, 168, 221);
+        margin-left: 5px;
+        margin-right: 5px;
+        color: rgb(234, 234, 234);
+}
+.readMoreBtn{
+margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: rgb(65, 168, 221);
+    margin-left: 5px;
+    margin-right: 5px;
+    background: rgb(234, 234, 234);
+    border: 1px solid rgb(65, 168, 221);
+}
+.treebanner{
+    margin-top: 10px;
+}
+.treebannerf{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.treetab{
+    display: none;
+}
+.shippingcont{
+    display: flex;
+    padding: 0px 8vw;
+    
+}
+.shipdiv{
+    display: flex;
+    width: 50%;
+border: 1px solid rgb(234, 234, 234);
+
+}
+.freeship{
+   width: 50%;
+    height: max-content;
+    margin: auto;
+    padding: 20px 0px;
+    text-align: center;
+    padding-right: 20px;
+    border-right: 1px solid rgb(234, 234, 234);
+
+}
+.freeship>img{
+    width: 36px;
+    height: 36px;
+    margin: auto;
+}
+.freeship >h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+
+}
+.contactus{
+  width: 50%;
+  border: 1px solid rgb(234, 234, 234);
+}
+.contactus >div{
+    margin: auto;
+    padding: 34px 0px;
+    text-align: center;
+    width: auto;
+    height: fit-content;
+   
+}
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+
+@media only screen and (max-width: 768px) {
+.youtubecont {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0vw;
+
+    }
+
+    .youtube {
+        width: 100%;
+    }
+
+    .youtubetext {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        margin-top: 10px;
+        width: 100%;
+               
+    }
+        .youtubetext>h2 {
+            color: rgb(60, 160, 218);
+            font-weight: 300;
+            font-size: 1.4rem;
+            
+           
+            width: 100%;
+            font-family: Satisfy;
+        }
+    
+        .youtubetext>p {
+            margin-top: 10px;
+            padding-right: 1rem;
+            font-size: 0.9rem;
+        }
+                .treebannerf{
+                    display: none;
+                }
+             .treetab {
+               height: auto;
+               width: 100%;
+               display: block;
+                }
+                .shippingcont {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0px 1vw;
+                
+                }
+        .shipdiv {
+            display: flex;
+            width: 100%;
+            
+    
+        }
+    
+        .freeship {
+            width: 50%;
+            height: max-content;
+            margin: auto;
+            padding: 20px 0px;
+            text-align: center;
+            padding-right: 20px;
+            border-right: 1px solid rgb(170, 170, 170);
+    
+        }
+    
+        .freeship>img {
+            width: 36px;
+            height: 36px;
+            margin: auto;
+        }
+    
+        .freeship>h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 5px;
+        }
+    
+        .contactus {
+            width: 100%;
+            border: 1px solid rgb(234, 234, 234);
+        }
+    
+        .contactus>div {
+            margin: auto;
+            padding: 25px 0px;
+            text-align: center;
+            width: auto;
+            height: fit-content;
+    
+        }
+}

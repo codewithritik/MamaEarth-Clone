@@ -1,0 +1,113 @@
+
+.paymentfooter > div>p{
+    
+margin: auto;
+    padding-left: 0.5rem;
+    color: rgb(101, 160, 6);
+    font-size: 0.8rem;
+    font-weight: 400;
+line-height: 1em;
+    }
+
+    .footercont{
+        padding: 0px 8vw;
+        
+    }
+    .paymentimg {
+        display: flex;
+
+justify-content: space-between;
+align-items: center;
+
+    }
+    .paymentfooter{
+display: flex;
+margin: 1px 8vw;
+padding:20px 4rem;
+border: 2px solid rgb(234, 234, 234);
+    }
+    .paymentfooter>div{
+        width: 50%;
+        text-align: left;
+    }
+        .paymentimg>div{
+            align-items: center;
+            text-align: center;
+
+           
+        }
+        .paymentimg>div>img{
+            width: 60px;
+            margin: auto;
+        }
+.footerdiv{
+    margin: 0px 8vw;
+        padding: 10px 4rem;
+        display: flex;
+        flex: 1 0 auto;
+            flex-flow: row wrap;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: initial;
+            align-items: initial;
+            border: 2px solid rgb(234, 234, 234);
+}
+    
+.fsubdiv{
+    width: auto;
+    height: auto;
+   
+    text-transform: capitalize;
+    text-align: left;
+}
+.fsubdiv>img{
+    width: 150px;
+        height: 255px;
+}
+.fsubdiv>h3{
+    font-family: Roboto;
+        color: rgb(61, 61, 61);
+        font-weight: 600;
+        font-size: 18px;
+        text-transform: uppercase;
+        
+}
+.fsubdiv>p{
+    margin-top: 15px;
+}
+.socialicon{
+    margin: 0px 8vw;
+        padding: 10px 4rem;
+        border: 2px solid rgb(234, 234, 234);
+        display: flex;
+        flex: 1 0 auto;
+        flex-flow: row wrap;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: initial;
+        align-items: center;
+        text-align: center;
+}
+.socialicon>p{
+    text-align: center;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .paymentfooter{
+        display: flex;
+        flex-direction: column;
+        padding:0px ;
+        margin: 0px;
+
+    }
+    .paymentfooter>div{
+        width: 100%;
+        text-align: center;
+        padding: 0px 20px;
+        margin-top: 10px;
+    }
+    .footerdiv{
+        display: none;
+    }
+}

@@ -1,0 +1,146 @@
+.loginbtn{
+   
+    background-color: white !important;
+   padding: 0px !important;
+text-decoration: none !important;
+}
+.loginbtn :hover{
+  text-decoration: none !important;
+    background-color: white;
+}
+.loginbox{
+   
+    background-color: white;
+}
+.loginheding{
+    font-size: 1.4rem;
+    color: rgb(0, 174, 239);
+    text-align: center;
+}
+
+.loginimgbox{
+    display: flex;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-top: 3vh;
+        width: 100%;
+        padding: 0px 30px;
+        
+}
+
+
+.loginimgbox >img{
+    height: 70px;
+    width:auto;
+
+}
+.loginimgbox > span{
+    
+            letter-spacing: 0.4px;
+            margin-left: 15px;
+            text-align: left;
+            font-weight: 500;
+            font-size: 13px;
+            color: rgb(112, 112, 112);
+            opacity: 0.95;
+        
+}
+.inputbox {
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 45px;
+    width: 100%;
+    padding: 0px 20px;
+}
+.formlogin{
+    text-align: center;
+    margin: auto;
+}
+.formlogin>input{
+        height: 3rem;
+            border-width: 2px;
+            border-radius: 3px;
+            color: rgba(0, 0, 0, 0.737);
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+                    width: 100%;
+                    padding: 10px;
+                    font-size: 0.9rem;
+                    appearance: none;
+                    margin-bottom: 60px;
+}
+
+.loginp{
+    letter-spacing: 0.8px;
+        font-size: 12px;
+}
+.loginp>span{
+    color: rgb(0, 175, 239);
+        font-weight: 700;
+    
+}
+.logotpbtn {
+cursor: pointer;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 174, 239) !important;
+    border: 1px solid rgb(0, 175, 239);
+    border-radius: 3px;
+    padding: 0.6rem 0rem;
+    margin-top: 2rem;
+}
+.logotpbtn :hover{
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 174, 239) !important;
+    border: 1px solid rgb(0, 175, 239);
+    border-radius: 3px;
+    padding: 0.6rem 0rem;
+    margin-top: 2rem;
+    margin-bottom: 10px;
+}
+.logguestbtn{
+        cursor: pointer;
+            width: 100%;
+            text-align: center;
+            border: none;
+            color: rgb(0, 174, 239);
+            font-size: 12px;
+            font-weight: 600;
+            margin: 1rem 0px;
+}
+
+.outinputdiv{
+    width: fit-content !important;
+   
+    margin: auto;
+  
+margin-bottom: 30px;
+margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+}
+.otpinput{
+    border :2px solid grey;
+}
+
+.otpheading{
+
+}
