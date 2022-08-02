@@ -10,13 +10,6 @@
 https://mamaearthclone.netlify.app/
 ---
 
-### About this project: :raised_hands:
-
-build Home page with Carousel Features Added using Chakra UI Library.
-I Create Login Sing-Up and OTP Page as a Modal Dialog using Chakra UI.
-Add to Card page as Drawer Component and Checkout Page.
----
-
 
 
 #### Project Demo: 
@@ -34,12 +27,11 @@ Add to Card page as Drawer Component and Checkout Page.
 
 ### Pages & Features :point_down:
 
-- `Home Page`: Responsiveness, Slideshow.
+- `Home Page`: Responsiveness, Slideshow , Product slider.
 - `Sign-Up Page`: its a PoP build with chakra ui .
 - `Sign-In Page`: All data is shorted in redux.
-- `Product Category Page`: Products deatils fetech from backend Api.
+- `Single Product Page`: Products deatils fetech from backend Api.
 - `Cart Page`: User can see or remove products added in the cart.
-
 - `Additional Features` : Kept the branding, fonts, colors and favicon and titles consistent throughtout the whole site to give a feel like the original site.
 
 ---
