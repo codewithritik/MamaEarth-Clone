@@ -8,10 +8,6 @@ import { useSelector,useDispatch } from "react-redux"
 import { TbDiscount2 } from "react-icons/tb"
 
 export const Checkout = () => {
-   
-    
-
-
     
     const cartData = useSelector((e) => e.product.Cartdata)
     

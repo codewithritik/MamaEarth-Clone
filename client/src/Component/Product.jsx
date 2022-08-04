@@ -38,47 +38,43 @@ padding: 5px 0.5rem;
   }
 `;
 
-const Product = (props) => {
- 
-
-  
+const Product = (props) => {  
   const [prodata, setdata] = useState([]);
-
   const [loading, setlod] = useState(true)
-  
   const url = props.prodata.url
 
-  
   useEffect(() => {
     axios(`https://mamabackend.herokuapp.com/category/${url}`)
       .then((res) =>
-      setdata(res.data.product),
-      setlod(false)
-    )
+        setdata(res.data.product))
       .catch((err) => {
       console.log(err)
-    })
+      })
+    
+    const setime = setTimeout(() => {
+      setlod(false)
+    }, 3000);
+
+    return () => clearInterval(setime)
+    
   }, [url]);
+
+ 
   
-  return ( <div>
-      {/* <Navbarbro/> */}
+  return (<div>
+     
     {loading ? <Loadingfunction /> : <div className="productcont">
         <div className="producttext">
           <div>
-
           <h2 className="h2tagpro">{props.prodata.text}</h2>
           <p className="ptagpro">{props.prodata.para}</p>
-            <Button >VIEW ALL</Button>
- 
+            <Button >VIEW ALL</Button> 
           </div>
-        </div>
+    </div>   
         <div className="sliderprodiv">
         <ProSlider data={prodata} />
-    
         </div>
       </div> }
-      
-      
       </div>
     );
 }

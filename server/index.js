@@ -2,13 +2,16 @@ const express = require('express')
 const app = express()
 const PORT = process.env.PORT || 5000
 const cors = require('cors')
+const dotenv = require('dotenv');
+dotenv.config();
 // const Mobile  = require("./models/Phone")
-const {body,validationResult} =require("express-validator")
+const { body, validationResult } = require("express-validator")
+
 
 const  mongoose  = require("mongoose")
 // mongoose.set('useCreateIndex', true);
  const connect = () => {
-    return mongoose.connect(`mongodb+srv://ritik:8505805813@cluster0.w0p4q.mongodb.net/mama?authSource=admin&replicaSet=atlas-11mzy7-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true`)
+    return mongoose.connect(process.env.MONGODB)
 
   
 }
@@ -80,7 +83,7 @@ const Mobile = mongoose.model("mobiles", MobileSchema)
 
 app.post("/posts", async(req, res) => {
    
-      const blog = new Mobile(req.body);
+      const blog = new Mobile.create(req.body);
     blog.save().then((blog) => {
         res.status(201).send(blog);
     }).catch((error) => {

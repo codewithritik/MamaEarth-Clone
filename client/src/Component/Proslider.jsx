@@ -2,12 +2,10 @@ import { useEffect, useState } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styled from "styled-components";
-import axios from "axios";
-import "../css/proslider.css";
 
+import "../css/proslider.css";
 import {React } from "react"
-import {AiOutlineArrowLeft} from "react-icons/ai"
-import { addsucessfun, alertboxcall, Getcartdata, toggledrawer } from "../Redux/Action";
+import { addsucessfun, Getcartdata, toggledrawer } from "../Redux/Action";
 import { useDispatch ,useSelector} from "react-redux";
 import { CartDrawer } from "../Page/AddDrawer";
 import { useNavigate } from 'react-router-dom';
@@ -104,7 +102,7 @@ export const ProSlider = (data) => {
 
           {prodata?.map((e) => {
             return <div key={e._id} className="productslidediv" >
-              <div className="innerprodiv" key={e._id}>
+              <div className="innerprodiv" >
 
                 <img src={e.img} className="prosliderimg" onClick={() => {
               Handleonepro(e._id)

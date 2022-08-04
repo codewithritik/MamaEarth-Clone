@@ -1,11 +1,10 @@
 import axios from 'axios';
 import { useSelector } from 'react-redux';
-export const productType = {
 
+export const productType = {
     proreq:"productloadding",
     prosucess:"productsucess",
     proerror:"producterror"
-
 }
 
 
@@ -16,12 +15,12 @@ const proreqfun  = () => {
 }
 
 const prosucessfun =(data)=>{
-
      return {
        type: productType.prosucess,
         payload:data
      };
 }
+
 const proerrorfun = (data) => {
   return {
     type: productType.proerror,
@@ -57,7 +56,6 @@ const addreqfun  = () => {
 }
 
 export const addsucessfun =(data)=>{
-
      return {
        type: cartId.Addtosucess,
         payload:data
@@ -68,6 +66,7 @@ export const addsucessfun =(data)=>{
 export const drawervalue = {
   drawer:"drawervalue"
 }
+
 export const toggledrawer = (data) => {
   
   return {
@@ -88,6 +87,7 @@ const Addsucess = (data) => {
     
   }
 }
+
 export const alertboxcall = (data) => {
   return {
     type: CartDataType.alertbox,
