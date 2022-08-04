@@ -62,16 +62,24 @@ First you have to have to go to the signup page and create a new account. Then y
 
 ## SignIn_Page
 
-![Fab-HomePage2](https://miro.medium.com/max/1400/1*Gsa0kx-4I1lq9kPu7pkiXg.jpeg)
+![Fab-HomePage2](https://raw.githubusercontent.com/codewithritik/MamaEarth-Clone/main/image/login.png)
 
 ## Home_Page
 
-![Fab-HomePage](https://miro.medium.com/max/1400/1*rMjqszXs4vSoOLgDrwlI9w.jpeg)
+![Fab-HomePage](https://raw.githubusercontent.com/codewithritik/MamaEarth-Clone/main/image/home.png)
 
 ## Products_Page
 
-![ProductPage-1](https://miro.medium.com/max/1400/1*f8UTkX2AwjHFSA84QGZayw.png)
+![ProductPage-1](https://raw.githubusercontent.com/codewithritik/MamaEarth-Clone/main/image/product.png)
 
 
 ## Cart_Page
-![CartPage (4)](https://miro.medium.com/max/1400/1*LFb5BZEuaXJvQsjOSUNGOA.jpeg)
+![CartPage (4)](https://raw.githubusercontent.com/codewithritik/MamaEarth-Clone/main/image/cart.png)
+
+## Checkout Page
+
+![Checkout](https://raw.githubusercontent.com/codewithritik/MamaEarth-Clone/main/image/checkout.png)
+
+
+## Footer 
+![footer](https://raw.githubusercontent.com/codewithritik/MamaEarth-Clone/main/image/footer.png)
